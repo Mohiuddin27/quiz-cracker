@@ -56,7 +56,7 @@ const Question = ({questionss,serial}) => {
           <div className='row'>
            {
             options.map((option,index)=>
-                <div className='col-md-6' key={index}>
+                <div className='col-md-6 col-sm-12' key={index}>
 
                     <div className="d-flex align-items-center justify-content-between option w-100">
                     <label htmlFor={option}>

@@ -14,3 +14,12 @@
 .eye:hover{
     color:green;
 }
+
+@media only screen and (max-width: 600px){
+    .question{
+        width:100%;
+    }
+    .card{
+        max-width:100%!important;
+    }
+}

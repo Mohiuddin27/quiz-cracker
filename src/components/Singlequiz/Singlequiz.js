@@ -12,9 +12,15 @@ const Singlequiz = () => {
     return (
         <div>
             <h3>Quiz of {name}</h3>
-            {
+            <div className="container">
+                <div className="singlequiz w-100">
+                {
                 questions.map((question,index)=><Question key={question.id} questionss={question} serial={index}></Question>)
             }
+
+                </div>
+
+            </div>
                     <ToastContainer></ToastContainer>
 
         </div>

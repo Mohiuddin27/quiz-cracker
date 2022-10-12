@@ -18,8 +18,9 @@ const Quiz = ({quiz}) => {
     
                   <Link to={`/quiz/${id}`}>
                   <button className='d-flex justify-content-around btn btn-primary'>
-                        <ArrowRightIcon className='icon my-auto'/> 
                         Start Practice
+                        <ArrowRightIcon className='icon my-auto ms-1'/> 
+
                     </button>
                     </Link>
                 </div>

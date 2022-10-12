@@ -1,5 +1,5 @@
 .banner img{
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 .navbar{
@@ -11,4 +11,10 @@
 }
 .nav-item a{
     font-weight: 600;
+}
+@media only screen and (max-width: 600px){
+    .banner img{
+        height: 100px;
+        object-fit: cover;
+    }
 }
