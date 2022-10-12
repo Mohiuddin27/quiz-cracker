@@ -6,6 +6,7 @@ import {toast,ToastContainer} from 'react-toastify';
 const Singlequiz = () => {
     const quiz=useLoaderData();
     const singlequiz=quiz.data;
+   
     // console.log(singlequiz);
     const {name,questions}=singlequiz;
 

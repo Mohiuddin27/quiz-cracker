@@ -62,7 +62,7 @@ const Question = ({questionss,serial}) => {
                     <label htmlFor={option}>
                     <input type="radio" 
                     id={option} 
-                    name="fav_language" 
+                    name={ques} 
                     onChange={handleAnswer}
 
                      value={option}/>
