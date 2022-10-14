@@ -1,3 +1,9 @@
+# Live Link of the project.
+
+Open [https://strong-fudge-690b50.netlify.app/
+](https://strong-fudge-690b50.netlify.app/
+) to view it in live.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
